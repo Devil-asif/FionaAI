@@ -12,6 +12,7 @@ import random
 MODEL = "gpt-6-luna"
 client = OpenAI(api_key=apikey)
 
+# git update
 
 def chat(query, chatStr):
     prompt = f"""
